@@ -20,6 +20,7 @@ El botón del dispositivo no funciona correctamente. Al conectarse a internet, l
 
 Por ello, puede ser necesario realizar este cambio en la línea 10 de main.py. 
 
-> if juego.button.get_pulsado() == False funciona si el dispositivo está conectado a internet
-> if juego.button.get_pulsado(): funciona si el dispositivo **no** está conectado a internet
+`if juego.button.get_pulsado() == False:` funciona si el dispositivo está conectado a internet
+
+`if juego.button.get_pulsado():` funciona si el dispositivo **no** está conectado a internet
 
