@@ -6,11 +6,11 @@ El proyecto consiste en lo siguiente:
 	Parte 1 
 
 	- Un juego donde, transcurrido un tiempo aleatorio, el led se enciende y se empieza a contar el tiempo.
-	- Cuando se presiona el botón central, el led se apaga y se calcula el tiempo que ha transcurrido desde que 	se encendió.
+	- Cuando se presiona el botón central, el led se apaga y se calcula el tiempo que ha transcurrido desde que se encendió.
 
 	Parte 2
 
-	- La mejor puntuación obtenida en 5 intentos, se publica mediante MQTT 
+	- La mejor puntuación obtenida en 5 intentos se publica mediante MQTT 
 	- Se usa el broker hivemq.com y el topic "JuegoIOT"
 
 
